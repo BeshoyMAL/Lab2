@@ -1,0 +1,118 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #ffd700;
+}
+
+#game-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+#instructions {
+  margin-bottom: 20px;
+}
+
+#color-options {
+  margin-bottom: 20px;
+}
+
+.color-option {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#guess-input {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.guess-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  position: relative;
+}
+
+.guess-circle div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#submit-guess {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit-guess:hover {
+  background-color: #45a049;
+}
+
+#guess-history {
+  margin-bottom: 20px;
+}
+
+#guess-history div {
+  padding: 5px;
+  background-color: white;
+  color: black;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#restart {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#restart:hover {
+  background-color: #d32f2f;
+}
+
+.draggable-ball {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.draggable-balls-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.color-indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
