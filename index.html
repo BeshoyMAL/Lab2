@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mastermind Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Welcome to BL-Kenyon Mastermind!</h1>
+    <div id="instructions">
+      <p>You have <span id="num-pegs"></span> pegs and <span id="num-colors"></span> colors to choose from.</p>
+      <p>Try to guess the secret code within <span id="max-attempts"></span> attempts.</p>
+    </div>
+    <div id="color-options" class="draggable-balls-container"></div>
+    <div id="guess-input">
+      <div class="guess-circle"></div>
+      <div class="guess-circle"></div>
+      <div class="guess-circle"></div>
+      <div class="guess-circle"></div>
+    </div>
+    <button id="submit-guess">Submit </button>
+    <div id="guess-history"></div>
+    <button id="restart">Restart </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
